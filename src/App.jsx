@@ -9,14 +9,13 @@ import PinkLashes from "./views/PinkLashes"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/git-app">
       <Routes>
         <Route path="/" element={<Navigate to="/PinkLashes" />} />
-        <Route path="/PinkLashes" element={<PinkLashes/>} />
+        <Route path="/PinkLashes" element={<PinkLashes />} />
       </Routes>
     </Router>
   )
 }
 
 export default App
-
