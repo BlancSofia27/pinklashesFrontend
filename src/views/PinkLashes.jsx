@@ -1,4 +1,4 @@
-import logo from "../../public/logoPinkLashes.png"
+import logo from "../assets/logoPinkLashes.png"
 import { useRef } from "react"
 import Services from "../components/Services.jsx"
 import HeroB from "../components/heroB.jsx"
@@ -34,23 +34,24 @@ const PinkLashes = () => {
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-pink1	flex flex-wrap items-center text-base justify-center">
             <a
               onClick={scrollToServices}
-              className="font-lashes text-2xl px-2 mr-5 hover:text-pink1 cursor-pointer"
+              className="font-lashes text-2xl px-2 mx-2 hover:text-pink1 cursor-pointer"
             >
               Extensiones
             </a>
             <a
-              className="font-lashes text-2xl px-2 mr-5 hover:text-pink1 cursor-pointer"
+              className="font-lashes text-2xl px-2 mx-2 hover:text-pink1 cursor-pointer"
             >
               Nuestra Ubicacion
             </a>
             <a
               
-              className="font-lashes text-2xl px-2 mr-5 hover:text-pink1 cursor-pointer"
+              className="font-lashes text-2xl px-2 mx-2 hover:text-pink1 cursor-pointer"
             >
               Agenda tu cita
             </a>
              
           </nav>
+          <div className="hidden lg:flex xl:flex ">
           {/*button whatsapp*/}
           <a
             type="button"
@@ -77,7 +78,7 @@ const PinkLashes = () => {
             rel="noopener noreferrer"
             data-twe-ripple-init
             data-twe-ripple-color="light"
-            className="flex items-center mx-2 w-1/10  rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal bg-pink1 text-white focus:outline-none transition duration-1000 ease-in-out transform hover:bg-pink2 "
+            className="flex items-center mx-2 w-1/10  rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal bg-pink1 text-white focus:outline-none transition duration-1000 ease-in-out transform hover:text-pink2 hover:bg-white "
           >
             <svg
               className="h-4 w-4 mr-1"
@@ -89,7 +90,7 @@ const PinkLashes = () => {
             </svg>
             <span>Instagram</span>
           </a>
-
+          </div>
         </div>
       </header>
       <HeroB />

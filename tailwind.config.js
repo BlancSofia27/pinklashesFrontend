@@ -44,6 +44,9 @@ export default {
       backgroundImage: {
         'hero-image': "url('/heroPinkLashes.jpg')", // Ruta correcta a la imagen
       },
+      screens: {
+        xs: "300px", // Nuevo breakpoint para pantallas desde 300px
+      },
     },
   },
   plugins: [],

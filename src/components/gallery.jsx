@@ -1,12 +1,12 @@
 import React from 'react';
 
-import con1 from '../../public/lashes1.jpg';
-import con5 from '../../public/lashes2.jpg';
-import con3 from '../../public/lashes3.jpg';
-import beforeLips from '../../public/antes.jpeg';
-import afterLips from '../../public/despues.jpeg';
-import relleno from '../../public/lashes7.mp4';
-import perfilado from '../../public/lashes8.mp4';
+import con1 from '../assets/lashes1.jpg';
+import con5 from '../assets/lashes2.jpg';
+import con3 from '../assets/lashes3.jpg';
+import beforeLips from '../assets/antes.jpeg';
+import afterLips from '../assets/despues.jpeg';
+import relleno from '../assets/lashes7.mp4';
+import perfilado from '../assets/lashes8.mp4';
 import BeforeAfterSlider from './before';
 
 const Gallery = React.forwardRef((props, ref) => {

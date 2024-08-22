@@ -1,7 +1,7 @@
 import React from "react"
-import logo from '../../public/logoPinkLashes.png'
-import instagram from '../../public/instagramC.svg'
-import whatsapp from '../../public/whatsappC.svg'
+import logo from '../assets/logoPinkLashes.png'
+import instagram from '../assets/instagramC.svg'
+import whatsapp from '../assets/whatsappC.svg'
 const FooterLashes = React.forwardRef((props, ref) => {
   return (
     <footer ref={ref} id="footerLashes" className="text-gray-600 body-font">
