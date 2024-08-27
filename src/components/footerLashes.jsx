@@ -37,7 +37,7 @@ const FooterLashes = React.forwardRef((props, ref) => {
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <a
-              href="https://wa.me/+543442461631?text=Hola%20me%20gustaría%20agendar%20una%20cita%20con%20Belen"
+              href="https://wa.me/+549343544361?text=Hola%20me%20gustaría%20agendar%20una%20cita"
               className="text-gray-500"
               target="_blank"
               rel="noopener noreferrer"

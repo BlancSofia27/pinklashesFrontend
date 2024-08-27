@@ -56,7 +56,7 @@ const Services = React.forwardRef((props, ref) => {
           {/*button whatsapp*/}
           <a
             type="button"
-            href="https://wa.me/+543442461631?text=Hola%20me%20gustaría%20agendar%20una%20cita%20con%20Belen"
+            href="https://wa.me/+549343544361?text=Hola%20me%20gustaría%20agendar%20una%20cita"
             data-twe-ripple-init
             data-twe-ripple-color="light"
             className="justify-center my-2 flex items-center mx-2 w-1/10  rounded bg-[#128c7e] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white focus:outline-none transition duration-1000 ease-in-out transform hover: hover:bg-white hover:text-[#128c7e]"
