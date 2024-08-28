@@ -47,6 +47,9 @@ export default {
       screens: {
         xs: "300px", // Nuevo breakpoint para pantallas desde 300px
       },
+      backgroundImage: {
+        'gradientReverse': 'linear-gradient(to top, #ffffff, #a855f7, #ec4899)',
+      },
     },
   },
   plugins: [],

@@ -5,6 +5,7 @@ import HeroB from "../components/heroB.jsx"
 import Gallery from "../components/gallery.jsx"
 import FooterLashes from "../components/footerLashes.jsx"
 import Consideraciones from "../components/consideraciones.jsx"
+import Map from "../components/map.jsx"
 
 const PinkLashes = () => {
   const servicesRef = useRef(null)
@@ -15,6 +16,11 @@ const PinkLashes = () => {
   const consideracionesRef = useRef(null)
   const scrollToConsideraciones = () => {
     consideracionesRef.current?.scrollIntoView({ behavior: "smooth"})
+  }
+
+  const mapRef = useRef(null)
+  const scrollToMap = () => {
+    mapRef.current?.scrollIntoView({behavior: "smooth"})
   }
 
   return (
@@ -38,7 +44,9 @@ const PinkLashes = () => {
               >
                 Extensiones
               </a>
-              <a className="font-lashes text-2xl px-2 mx-2 hover:text-pink1 cursor-pointer">
+              <a className="font-lashes text-2xl px-2 mx-2 hover:text-pink1 cursor-pointer"
+              onClick={scrollToMap}
+              >
                 Nuestra Ubicacion
               </a>
               <a 
@@ -93,6 +101,7 @@ const PinkLashes = () => {
         <Services ref={servicesRef} id="services" />
         <Consideraciones ref={consideracionesRef} id="consideraciones"/>
         <Gallery />
+        <Map ref={mapRef} id="map"/>
         <FooterLashes />
       </div>
     </section>

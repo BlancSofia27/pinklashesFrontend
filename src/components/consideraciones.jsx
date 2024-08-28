@@ -6,6 +6,7 @@ import prohibido from '../assets/prohibido.svg'
 import makeup from '../assets/makeup.svg'
 import esperaHoras from '../assets/24h.svg'
 import compromiso from '../assets/compromiso.svg'
+import Button1 from "./buttonAgendar"
 
 
 const Consideraciones = React.forwardRef((props, ref) => {
@@ -22,7 +23,7 @@ const Consideraciones = React.forwardRef((props, ref) => {
           <div className="p-2 sm:w-1/2 w-full ">
             <div className="bg-gray-100 rounded flex p-5 h-full items-center">
               <img 
-              className="w-12 m-3"
+              className="w-12 mr-3"
               src={sena} alt="" />
               <span className="title-font font-medium xs:text-sm">
                 Los turnos son reservados una vez abonada la seña, la seña no es
@@ -33,29 +34,7 @@ const Consideraciones = React.forwardRef((props, ref) => {
           <div className="p-2 sm:w-1/2 w-full">
             <div className="bg-gray-100 rounded flex p-5 h-full items-center">
               <img 
-              className="w-12 m-3"
-              src={esperaHoras} alt="" />
-              <span className="title-font font-medium xs:text-sm">
-                En caso de no asistir al turno avisar con 24h de anticipacion
-                para asi no perder la seña.
-              </span>
-            </div>
-          </div>
-          <div className="p-2 sm:w-1/2 w-full">
-            <div className="bg-gray-100 rounded flex p-5 h-full items-center">
-              <img 
-              className="w-12 m-3"
-              src={cash} alt="" />
-              <span className="title-font font-medium xs:text-sm">
-                Si el turno es cancelado dentro las 24hs el mismo deberá ser
-                abonado en su totalidad.
-              </span>
-            </div>
-          </div>
-          <div className="p-2 sm:w-1/2 w-full">
-            <div className="bg-gray-100 rounded flex p-5 h-full items-center">
-              <img 
-              className="w-12 m-3"
+              className="w-[58px] mr-2"
               src={svg1} alt="" />
               <span className="title-font font-medium xs:text-sm">
                 El tiempo de espera es de 15 minutos, pasados los mismos el
@@ -66,7 +45,30 @@ const Consideraciones = React.forwardRef((props, ref) => {
           <div className="p-2 sm:w-1/2 w-full">
             <div className="bg-gray-100 rounded flex p-5 h-full items-center">
               <img 
-              className="w-12 m-3"
+              className="w-12 mr-3"
+              src={esperaHoras} alt="" />
+              <span className="title-font font-medium xs:text-sm">
+                En caso de no asistir al turno avisar con 24h de anticipacion
+                para asi no perder la seña.
+              </span>
+            </div>
+          </div>
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-5 h-full items-center">
+              <img 
+              className="w-12 mr-3"
+              src={cash} alt="" />
+              <span className="title-font font-medium xs:text-sm">
+                Si el turno es cancelado dentro las 24hs el mismo deberá ser
+                abonado en su totalidad.
+              </span>
+            </div>
+          </div>
+          
+          <div className="p-2 sm:w-1/2 w-full">
+            <div className="bg-gray-100 rounded flex p-5 h-full items-center">
+              <img 
+              className="w-12 mr-3"
               src={compromiso} alt="" />
               <span className="title-font font-medium xs:text-sm">
                 Pido compromiso y responsabilidad a la hora de solicitar un
@@ -76,27 +78,35 @@ const Consideraciones = React.forwardRef((props, ref) => {
           </div>
           <div className="p-2 sm:w-1/2 w-full">
   <div className="bg-gray-100 rounded flex p-5 h-full items-center relative">
-    <div className="w-36 m-3 relative">
+    <div className="mr-4 relative">
       <img
-        className=" z-10 relative"
+        className="xs:w-[130px] md:w-[90px] lg:w-[65px] z-10 relative"
         src={makeup}
         alt="makeup"
       />
       <img
-        className=" absolute top-0 left-0"
+        className="xs:w-[130px] md:w-[90px] lg:w-[65px] absolute top-0 left-0"
         src={prohibido}
         alt="prohibido"
       />
     </div>
-    <span className="title-font font-medium xs:text-sm ml-3">
+    <span className="title-font font-medium xs:text-sm">
       Es obligatorio asistir al turno sin lentes de contacto y ningún tipo de maquillaje.
     </span>
   </div>
 </div>
 
         </div>
+        <div className="flex justify-center items-center">
+    <Button1 />
+</div>
 
-        
+
+
+
+
+
+
       </div>
     </section>
   )

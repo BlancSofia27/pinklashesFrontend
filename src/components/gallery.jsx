@@ -29,7 +29,7 @@ const Gallery = React.forwardRef((props, ref) => {
               />
             </div>
             <div className="md:p-1 p-0.5 w-full">
-              <div className="relative w-full h-60 md:h-96 lg:h-80">
+              <div className="relative w-full h-60 md:h-96 lg:h-80 xs:h-[150px] ]">
                 <BeforeAfterSlider
                   className="absolute top-0 left-0 w-full h-full"
                   beforeImage={beforeLips}

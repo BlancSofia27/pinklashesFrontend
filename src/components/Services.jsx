@@ -93,10 +93,10 @@ const Services = React.forwardRef((props, ref) => {
           </a>
           </div>
         <div className="flex flex-col font-lashes2 text-center w-full xs:py-3 md:py-7 xl:py-10 lg:py-10 sm:py-6">
-          <h1 className="sm:text-3xl text-2xl title-font mb-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl title-font mb-4 text-white bg-opacity-25 bg-gradient-to-b from-pink-500 via-pink2 to-white">
             Nuestras Extensiones
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
             En Pink Lashes, entendemos que cada mirada es única y merece una atención especial. Por eso, ofrecemos una variedad de extensiones de pestañas para adaptarnos a tus gustos y necesidades. A continuación, te presentamos nuestros tipos de extensiones de pestañas, cada una diseñada para realzar tu belleza natural.
           </p>
         </div>
