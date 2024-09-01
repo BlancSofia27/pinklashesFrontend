@@ -15,12 +15,12 @@ const PinkLashes = () => {
 
   const consideracionesRef = useRef(null)
   const scrollToConsideraciones = () => {
-    consideracionesRef.current?.scrollIntoView({ behavior: "smooth"})
+    consideracionesRef.current?.scrollIntoView({ behavior: "smooth" })
   }
 
   const mapRef = useRef(null)
   const scrollToMap = () => {
-    mapRef.current?.scrollIntoView({behavior: "smooth"})
+    mapRef.current?.scrollIntoView({ behavior: "smooth" })
   }
 
   return (
@@ -44,14 +44,15 @@ const PinkLashes = () => {
               >
                 Extensiones
               </a>
-              <a className="font-lashes text-2xl px-2 mx-2 hover:text-pink1 cursor-pointer"
-              onClick={scrollToMap}
+              <a
+                className="font-lashes text-2xl px-2 mx-2 hover:text-pink1 cursor-pointer"
+                onClick={scrollToMap}
               >
                 Nuestra Ubicacion
               </a>
-              <a 
-              className="font-lashes text-2xl px-2 mx-2 hover:text-pink1 cursor-pointer"
-              onClick={scrollToConsideraciones}
+              <a
+                className="font-lashes text-2xl px-2 mx-2 hover:text-pink1 cursor-pointer"
+                onClick={scrollToConsideraciones}
               >
                 Agenda tu cita
               </a>
@@ -60,7 +61,7 @@ const PinkLashes = () => {
               {/*button whatsapp*/}
               <a
                 type="button"
-                href="https://wa.me/+549343544361?text=Hola%20me%20gustaría%20agendar%20una%20cita"
+                href="https://wa.me/+5493435443861?text=Hola%20me%20gustaría%20agendar%20una%20cita"
                 data-twe-ripple-init
                 data-twe-ripple-color="light"
                 className="flex items-center mx-2 w-1/10  rounded bg-[#128c7e] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white focus:outline-none transition duration-1000 ease-in-out transform hover: hover:bg-white hover:text-[#128c7e]"
@@ -99,9 +100,9 @@ const PinkLashes = () => {
         </header>
         <HeroB />
         <Services ref={servicesRef} id="services" />
-        <Consideraciones ref={consideracionesRef} id="consideraciones"/>
+        <Consideraciones ref={consideracionesRef} id="consideraciones" />
         <Gallery />
-        <Map ref={mapRef} id="map"/>
+        <Map ref={mapRef} id="map" />
         <FooterLashes />
       </div>
     </section>
